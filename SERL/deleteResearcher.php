@@ -22,7 +22,7 @@
 <form action="deleteResearcher.php" method="POST">
         <h3>Delete Researcher</h3>
         <label for="">Enter Researcher id:</label><br>
-        <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
+        <input type="text" name="id" id="id" required placeholder="ID"><br><br>
         <input type="submit" name="submit2" id="submit2">
 </form>
 </body>

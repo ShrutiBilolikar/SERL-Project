@@ -22,7 +22,7 @@
 <form action="deleteFaculty.php" method="POST">
         <h3>Delete Faculty</h3>
         <label for="">Enter FacultyID:</label><br>
-        <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
+        <input type="text" name="id" id="id" required placeholder="ID"><br><br>
         <input type="submit" name="submit3" id="submit3">
     </form>
 </body>
