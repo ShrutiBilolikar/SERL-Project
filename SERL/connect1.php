@@ -26,7 +26,7 @@ echo $temp;
             
         }
         $sql="SELECT count(*) FROM faculty WHERE facultyID='$ID' AND password='$password'";
-        $sql2="SELECT * FROM admin WHERE facultyID='$ID' AND password='$password'";
+        $sql2="SELECT * FROM faculty WHERE facultyID='$ID' AND password='$password'";
         $query=mysqli_query($conn,$sql);
         $row=mysqli_fetch_array($query);
         $query2=mysqli_query($conn,$sql2);
@@ -39,11 +39,11 @@ echo $temp;
                 session_start();
                 $karo=print_r($row2[0],true);
                 $_SESSION['uid']= $karo;
-                header("Location: faculty.php");
+                header("Location: afterLogin.php");
             
         }
-        $sql="SELECT count(*) FROM admin WHERE researcherID='$ID' AND password='$password'";
-        $sql2="SELECT * FROM admin WHERE researcherID='$ID' AND password='$password'";
+        $sql="SELECT count(*) FROM researcher WHERE researcherID='$ID' AND password='$password'";
+        $sql2="SELECT * FROM researcher WHERE researcherID='$ID' AND password='$password'";
         $query=mysqli_query($conn,$sql);
         $row=mysqli_fetch_array($query);
         $query2=mysqli_query($conn,$sql2);
@@ -56,7 +56,7 @@ echo $temp;
                 session_start();
                 $karo=print_r($row2[0],true);
                 $_SESSION['uid']= $karo;
-                header("Location: researcher.php");
+                header("Location: afterLogin.php");
             
         }
         else{
