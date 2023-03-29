@@ -18,5 +18,9 @@
                 echo 'Value exists';
             }
         }
+        else{
+            echo 'Invalid input';
         }
-    ?>
+        }
+    
+?>
