@@ -9,8 +9,7 @@
 </head>
 <body>
     <h1>Add new Project</h1>
-
-    <div><h2>Enter Project details</h2></div>
+<br><br>
 
     <form action="connect4.php" method="POST">
         <label for="ID">ProjectID:</label><br>
