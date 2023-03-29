@@ -12,7 +12,7 @@
             $query =mysqli_query($conn,$sql);
             if($query){
                 
-                header("Location: project.php");
+                header("Location: frontProject.php");
             }
             else{
                 echo 'Value exists';
