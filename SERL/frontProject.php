@@ -20,6 +20,7 @@
         <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <a class="navbar-brand" href="#!">SERL</a>
@@ -37,6 +38,9 @@
                 </div>
             </div>
         </nav>
+=======
+
+>>>>>>> e8c695ab5dbd07975b1f09c366bc02673e9133e7
     <section class="py-5 border-bottom">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
@@ -56,7 +60,11 @@
                                     <div class="ms-4">
                                        <h3><?php echo $row['projectName'];?></h3>
                                        <?php echo "Contribution by: ";?> 
+<<<<<<< HEAD
                                        <h4><?php echo $row['contributor'];?></h4>
+=======
+                                       <h4><?php echo $row['contribution'];?></h4>
+>>>>>>> e8c695ab5dbd07975b1f09c366bc02673e9133e7
                                        <?php echo "Link to the project: ";?>
                                        <h5><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></h5>
                                        <br>
