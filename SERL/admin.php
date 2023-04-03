@@ -9,8 +9,7 @@
 </head>
 <body>
 
-<br><br><br>
-     <div class="tab1cards">
+            <div class="tab1cards">
                 <div class="card">
                     <img src="https://i.pinimg.com/originals/19/46/9a/19469aed7f222d6009f48158a682bb9c.png" alt="safari" style="width: 250px;">
                     <h4><b><a href="addFaculty.php">Add faculty</a> </b></h4>
@@ -19,9 +18,6 @@
                     <img src="https://i.pinimg.com/originals/19/46/9a/19469aed7f222d6009f48158a682bb9c.png" alt="safari" style="width: 250px">
                     <h4><b><a href="deleteFaculty.php">Delete faculty</a></b></h4>
                 </div>
-            </div>
-            <div class="tab1cards">
-
                 <div class="card">
                     <img src="https://static.vecteezy.com/system/resources/previews/004/745/667/original/female-scientist-looking-through-a-microscope-in-a-laboratory-doing-research-free-vector.jpg" alt="safari" style="width: 250px">
                     <h4><b><a href="addResearcher.php">Add Researcher</a></b></h4>
