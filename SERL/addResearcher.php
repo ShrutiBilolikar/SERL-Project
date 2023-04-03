@@ -15,7 +15,7 @@
 </head>
 <body>
         <h1>Add researcher details</h1>
-        <form action="connect3.php" method="POST" class="form">
+        <form action="connect3.php" method="POST" class="form" enctype="multipart/form-data">
             <label for="id">ID:</label><br>
             <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
     
@@ -33,6 +33,9 @@
     
             <label for="description">Description:</label><br>
             <input type="text" name="description" id="description" required placeholder="Description"><br><br>
+
+            <label for="uploadfile">Upload Image:</label><br>
+            <input type="file" name="uploadfile" id="uploadfile"><br><br>
     
             <label for="password">Password:</label><br>
             <input type="text" name="password" id="password" required placeholder="Password"><br><br>

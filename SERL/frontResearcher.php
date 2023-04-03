@@ -48,6 +48,7 @@
                     <div class="card-body p-5">
                         <div class="mb-3">
                             <span class="display-6 fw-bold"><?php echo $row['name'];?></span>
+                            <div><?php echo "<img src='".$row['img_source']."' width= '50%'>" ;?></div>
                             <p class="text-muted"><?php echo $row['department'];?></p>
                             <p class="text-muted"><?php echo "IIIT Allahabad";?></p>
                         </div>
