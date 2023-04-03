@@ -31,7 +31,8 @@ img {
   padding-left: 20px;
 }
 </style>
-<body>
+<body style="background: rgb(241,91,50);
+background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                   <div class="container px-5">
                       <a class="navbar-brand" href="#!">SERL</a>

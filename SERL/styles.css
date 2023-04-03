@@ -100,7 +100,9 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
+  background: rgb(253,132,45);
+  background: linear-gradient(0deg, rgba(253,132,45,1) 23%, rgba(34,193,195,1) 93%);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -257,7 +259,9 @@ small,
 mark,
 .mark {
   padding: 0.1875em;
-  background-color: var(--bs-highlight-bg);
+  /* background-color: var(--bs-highlight-bg); */
+  background: rgb(253,132,45);
+background: linear-gradient(0deg, rgba(253,132,45,1) 23%, rgba(34,193,195,1) 93%);
 }
 
 sub,

@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="loginstyle.css">
 </head>
-<body>
+<body style="background: rgb(241,91,50);
+background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
         <h1>Add publication details</h1>
         <form action="connect5.php" method="POST" class="form">
             <label for="id">ID:</label><br>
