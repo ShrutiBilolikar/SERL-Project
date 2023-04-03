@@ -8,7 +8,7 @@
 </head>
 <body>
         <h1>Add faculty details</h1>
-        <form action="connect2.php" method="POST">
+        <form action="connect2.php" method="POST" enctype="multipart/form-data">
             <label for="id">ID:</label><br>
             <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
     
@@ -26,6 +26,9 @@
     
             <label for="website">Website Link:</label><br>
             <input type="text" name="website" id="website" required placeholder="Website link"><br><br>
+
+            <label for="uploadfile">Upload Image:</label><br>
+            <input type="file" name="uploadfile" id="uploadfile"><br><br>
     
             <label for="password">Password:</label><br>
             <input type="text" name="password" id="password" required placeholder="Password"><br><br>
