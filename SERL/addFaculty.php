@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
         <h1>Add faculty details</h1>
-        <form action="connect2.php" method="POST" enctype="multipart/form-data">
+        <form action="connect2.php" method="POST" class="form" enctype="multipart/form-data">
             <label for="id">ID:</label><br>
             <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
     
@@ -33,7 +34,7 @@
             <label for="password">Password:</label><br>
             <input type="text" name="password" id="password" required placeholder="Password"><br><br>
     
-            <input type="submit" name="submit" id="submit">
+            <input type="submit" name="submit" id="submit" class="btn">
         </form>
     </div>
 </body>

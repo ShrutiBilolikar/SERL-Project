@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
         <h1>Add publication details</h1>
-        <form action="connect5.php" method="POST">
+        <form action="connect5.php" method="POST" class="form">
             <label for="id">ID:</label><br>
             <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
     
@@ -22,7 +23,7 @@
             <input type="text" name="contributorID" id="contributorID" required placeholder="Contributor ID"><br><br>
 
     
-            <input type="submit" name="submit5" id="submit5">
+            <input type="submit" name="submit5" id="submit5" class="btn">
         </form>
     </div>
 </body>
