@@ -23,13 +23,13 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index1.php">HOMEPAGE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">HOMEPAGE</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontFaculty.php">FACULTY</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontResearcher.php">RESEARCHER</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontProject.php">PROJECTS</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">PROJECTS</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,8 +38,8 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">Software Engineering Research Laboratory</h1>
-                    <h2 class="masthead-subheading mb-0">Indian Institute of Information Technology</h2>
+                    <h1 class="masthead-heading mb-0"style="background-color:rgb(255,255,255,0.4);color:black;font-size:4em">Software Engineering Research Laboratory</h1>
+                    <h2 class="masthead-subheading mb-0" style="background-color:rgb(255,255,255,0.4);color:rgb(0,0,0);font-size:2em">Indian Institute of Information Technology,Allahabad</h2>
                     <!-- <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a> -->
                 </div>
             </div>
@@ -54,8 +54,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">About Us</h2>
-                            <p style="font-size :25px;">The Software Engineering Research Lab (SERL) at IIIT Allahabad is to be established to undertake 
+                            <h2 class="display-4" style="font-size :2em;">About Us</h2>
+                            <p style="font-size :1.1em;">The Software Engineering Research Lab (SERL) at IIIT Allahabad is to be established to undertake 
                                 world-class research in designing of complex, largescale software-intensive systems of scalable 
                                 solutions, which are steered by business needs. The objective of the establishment of SERL@IIITA 
                                 is to cover cross-disciplinary research domains and to address real industrial software engineering 
@@ -76,8 +76,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">Vision and Mission</h2>
-                            <p style="font-size :25px;">Big thinking precedes great achievement. The mission of this initiative is to establish a research lab of an industrial 
+                            <h2 class="display-4" style="font-size :2em;">Vision and Mission</h2>
+                            <p style="font-size :1.1em;">Big thinking precedes great achievement. The mission of this initiative is to establish a research lab of an industrial 
                                 repute through various scholarly activities such as development of software tools, establishment of special interest groups, 
                                 organizing conferences, workshops, forums for open source solutions and hands-on training in order to provide reliable and 
                                 repeatable results to reflect our core strategy and vision of deepening excellence.Thus the establishment of Software 
