@@ -1,0 +1,8 @@
+.card{
+    /* float: left; */
+    padding: 16px;
+    text-align: center;
+    /* margin:auto; */
+    display: flex;
+    ;
+}

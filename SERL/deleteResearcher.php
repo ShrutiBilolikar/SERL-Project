@@ -17,13 +17,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete Researcher</title>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
-<form action="deleteResearcher.php" method="POST">
+<form action="deleteResearcher.php" method="POST" class="form">
         <h3>Delete Researcher</h3>
         <label for="">Enter Researcher id:</label><br>
         <input type="text" name="id" id="id" required placeholder="ID"><br><br>
-        <input type="submit" name="submit2" id="submit2">
+        <input type="submit" name="submit2" id="submit2"  class="btn">
 </form>
 </body>
 </html>

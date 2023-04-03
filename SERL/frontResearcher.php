@@ -29,6 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">Resources</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,9 +73,12 @@
         </div>
     </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; SERL 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
 </body>
 </html>
