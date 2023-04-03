@@ -13,8 +13,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles1.css" rel="stylesheet" />
+        <link rel="stylesheet" href="adminstyle.css">
 </head>
-<body>
+<body style="background: rgb(241,91,50);
+background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <a class="navbar-brand" href="#!">SERL</a>
@@ -33,7 +35,8 @@
                 </div>
             </div>
         </nav>
-    <div class="resources">
+        
+    <div class="resources card tab1cards">
         <h1>Resources</h1>
         <div class="books">
             <h4>Books</h4>
