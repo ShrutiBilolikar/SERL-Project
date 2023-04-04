@@ -7,8 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="adminstyle.css">
 </head>
-<body style="background: rgb(241,91,50);
-background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
+<body>
 <div class="tab1cards">
                 <div class="card">
                     <img src="https://i.pinimg.com/originals/19/46/9a/19469aed7f222d6009f48158a682bb9c.png" alt="safari" style="width: 250px;">
