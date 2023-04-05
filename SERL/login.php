@@ -82,14 +82,10 @@
     <input type="submit" name="submit1" id="submit1" class="btn">
 
     <div class="socials">
-   <img src="https://i.pinimg.com/originals/b3/da/ac/b3daac6815ebf1516a545db6c3e40a36.jpg" alt="">
-   <img src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-orange.png" alt="">    
-   <img src="https://i.pinimg.com/originals/ac/cf/1d/accf1d80314304e11e2bcf9537e13304.jpg" alt="">    
+    
  </form>
 </div>
 
-<div class="circle"></div>
-<div class="circle-1"></div>
-<div class="circle-2"></div>
+
 </body>
 </html

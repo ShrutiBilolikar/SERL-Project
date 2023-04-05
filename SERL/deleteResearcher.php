@@ -5,6 +5,7 @@
     
     if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['submit2'])){
         $conn=mysqli_connect('localhost','root','','serl') or die("Connection failed" .mysqli_connect_error());
+        $temp=$_POST['id'];
         $query= "DELETE FROM researcher WHERE researcherID='$temp'";
         $q1=mysqli_query($conn,$query);
         header("Location: admin.php");
@@ -22,7 +23,7 @@
 <body>
 <form action="deleteResearcher.php" method="POST" class="form">
         <h3>Delete Researcher</h3>
-        <label for="">Enter Researcher id:</label><br>
+        <label for="id">Enter Researcher id:</label><br>
         <input type="text" name="id" id="id" required placeholder="ID"><br><br>
         <input type="submit" name="submit2" id="submit2"  class="btn">
 </form>

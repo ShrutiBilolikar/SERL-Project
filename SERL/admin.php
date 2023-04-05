@@ -27,6 +27,24 @@
                     <h4><b><a href="deleteResearcher.php">Delete Researcher</a></b></h4>
                 </div>
             </div>
+            <div class="tab1cards">
+                <div class="card">
+                    <img src="project.jpg" alt="safari" style="width: 250px">
+                    <h4><b><a href="project.php">Add Project</a></b></h4>
+                </div>
+                <div class="card">
+                    <img src="project.jpg" alt="safari" style="width: 250px">
+                    <h4><b><a href="deleteProject.php">Delete Project</a></b></h4>
+                </div>
+                <div class="card">
+                    <img src="project.jpg" alt="safari" style="width: 250px">
+                    <h4><b><a href="publication.php">Add Publication</a></b></h4>
+                </div>
+                <div class="card">
+                    <img src="project.jpg" alt="safari" style="width: 250px">
+                    <h4><b><a href="deletePublication.php">Delete Publication</a></b></h4>
+                </div>
+            </div>
 
 
 </body>
