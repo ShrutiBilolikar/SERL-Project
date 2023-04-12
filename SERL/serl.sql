@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2023 at 06:58 AM
+-- Generation Time: Apr 06, 2023 at 01:28 AM
 -- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- PHP Version: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47,6 +47,7 @@ INSERT INTO `admin` (`adminID`, `password`) VALUES
 
 CREATE TABLE `faculty` (
   `facultyID` varchar(20) NOT NULL,
+  `img_source` varchar(400) NOT NULL,
   `name` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `mobile` varchar(10) NOT NULL,
@@ -59,9 +60,12 @@ CREATE TABLE `faculty` (
 -- Dumping data for table `faculty`
 --
 
-INSERT INTO `faculty` (`facultyID`, `name`, `email`, `mobile`, `address`, `website`, `password`) VALUES
-('1', 'Dr. Sonali Agrawal', 'sonali@iiita.ac.in', ' 0532-2922', 'Room No.: 5203,\r\nCC3 Building\r\nIndian Institute of Information Technology\r\nAllahabad (UP) INDIA', ' www.sonaliagarwal.com\r\n', '123'),
-('2', 'Prof. Channappa B Akki', ' akki.channappa@iiita.ac.in', ' 0532-2922', 'Indian Institute of Information Technology\r\nAllahabad 211 015, (UP) INDIA', 'akki.channappa@gmail.com', '123');
+INSERT INTO `faculty` (`facultyID`, `img_source`, `name`, `email`, `mobile`, `address`, `website`, `password`) VALUES
+('1', '', 'Shruti Bilolikar', 'shrutibilolikar2003@gmail.com', '8208096560', 'na', 'link', '12345678'),
+('2', '', 'Radhika Gupta', 'rads@gmail.com', '8208096560', 'na', 'link2', 'sb'),
+('3', '', 'naysha', 'shrutibilolikar2003@gmail.com', '0820809656', 'na', 'link2', '12345678'),
+('4', '', 'Pankti', 'pankti@gmail.com', '9876543211', 'gujarat', 'iit2021134@iiita.ac.in', '789'),
+('5', 'upload_images/imgn.jpg', 'tanisha', 'dentistsarika@yahoo.com', '+918860541', '3a /59, Rachna , Vaishali', 'iit2021134@iiita.ac.in', '765');
 
 -- --------------------------------------------------------
 
@@ -92,8 +96,8 @@ CREATE TABLE `project` (
 --
 
 INSERT INTO `project` (`projectID`, `link`, `projectName`, `contributor`) VALUES
-('1', 'https://profile.iiita.ac.in/sonali/projects.html', ' Big Data and Machine Learning related research', 'Sonali Agrawal'),
-('2', 'https://profile.iiita.ac.in/sonali/projects.html', 'Real Time Complex Event Processing and Analytics for Smart Buildings', 'Sonali Agrawal');
+('12', 'iit2021134@iiita.ac.in', 'Software Security', ''),
+('pid2', 'https://profile.iiita.ac.in/venkat/', 'Venkat Sir', '');
 
 -- --------------------------------------------------------
 
@@ -112,8 +116,7 @@ CREATE TABLE `publication` (
 --
 
 INSERT INTO `publication` (`publicationID`, `link`, `publicationName`) VALUES
-('1', 'http://csur.acm.org/', 'Evaluation of Knowledge Gaps for Mathematical Applications in Thermographic Image Processing Techniq'),
-('2', 'http://www.sersc.org/journals/IJDTA/vol9_no9/19.pdf', 'Stream data mining');
+('3', 'ajdjd', 'sddhdhs');
 
 -- --------------------------------------------------------
 
@@ -154,7 +157,7 @@ CREATE TABLE `researcher` (
 --
 
 INSERT INTO `researcher` (`researcherID`, `name`, `mobile`, `description`, `email`, `department`, `password`) VALUES
-('1', 'Shruti Bilolikar', '0820809656', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni', 'shrutibilolikar2003@', 'IT', '12345678'),
+('1', 'Shruti Bilolikar', '0820809656', 'qebhrfrueh', 'shrutibilolikar2003@', 'IT', '12345678'),
 ('2', 'Radhika Gupta', '8208096560', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni ', 'rads2003@gmail.com', 'IT', 'sb');
 
 --
