@@ -57,10 +57,9 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
                                     <div class="ms-4">
-                                        <h3><?php echo $row['publicationName'];?></h3>
-                                       <?php echo "Link to the publication: ";?>
-                                       <h5><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></h5>
-                                       <br>
+                                        <a style="text-decoration:none; color:black;" href="<?php echo $row['link']?>">
+                                            <p><?php echo $row['publicationName'];?></p>
+                                    </a>
                                     </div>
                                     </div>
                                 </div>

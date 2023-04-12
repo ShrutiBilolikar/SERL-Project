@@ -27,7 +27,8 @@
                         <li class="nav-item"><a class="nav-link" href="frontFaculty.php">FACULTY</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontResearcher.php">RESEARCHER</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontProject.php">PROJECTS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="resources.php">PROJECTS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
                         <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
                     </ul>

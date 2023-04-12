@@ -35,6 +35,7 @@ if($row[0]==1){
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Logout</a></li>
                         </ul>
                 </div>
             </div>
@@ -100,7 +101,9 @@ if($row3[0]>=1){
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"style="font-size:30px; height:3rem; color:#0d6efd"></i></h1></div>
                                     <div class="ms-4">
-                                        <p ><?php echo $row4['publicationName'];?></p>
+                                    <a style="text-decoration:none; color:black;" href="<?php echo $row4['link']?>">
+                                            <p><?php echo $row4['publicationName'];?></p>
+                                        
                                         
                                     </div>
                                     </div>

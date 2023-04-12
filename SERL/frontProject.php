@@ -39,7 +39,7 @@
             </div>
         </nav>
     <section class="py-5 border-bottom" style="background: rgb(207,231,247);
-background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:max-height">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
@@ -56,11 +56,11 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
                                     <div class="ms-4">
-                                       <h3><?php echo $row['projectName'];?></h3>
+                                       <h4><?php echo $row['projectName'];?></h4>
                                        <?php echo "Contribution by: ";?> 
-                                       <h4><?php echo $row['contributor'];?></h4>
+                                       <p><?php echo $row['contributor'];?></p>
                                        <?php echo "Link to the project: ";?>
-                                       <h5><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></h5>
+                                       <p><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></p>
                                        <br>
                                     </div>
                                     </div>
