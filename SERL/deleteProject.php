@@ -20,7 +20,8 @@
     <title>Delete Faculty</title>
     <link rel="stylesheet" href="loginstyle.css">
 </head>
-<body>
+<body style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
 <form action="deleteProject.php" method="POST" class="form">
         <h3>Delete Project</h3>
         <label for="id">Enter ProjectID:</label><br>

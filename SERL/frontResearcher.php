@@ -34,8 +34,8 @@
                 </div>
             </div>
         </nav>
-        <section class="bg-light py-3 border-bottom" style="background: rgb(241,91,50);
-background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
+        <section class="bg-light py-3 border-bottom" style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%);">
     <div class="container px-5 my-5">
         <div class="text-center mb-5">
             <h2 class="display-2 fw-bolder">Researchers</h2>
