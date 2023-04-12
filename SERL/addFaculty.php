@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="loginstyle.css">
 </head>
-<body>
+<body style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
         <h1>Add faculty details</h1>
         <form action="connect2.php" method="POST" class="form" enctype="multipart/form-data">
             <label for="id">ID:</label><br>

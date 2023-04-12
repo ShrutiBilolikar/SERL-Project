@@ -38,8 +38,8 @@
                 </div>
             </div>
         </nav>
-    <section class="py-5 border-bottom" style="background: rgb(241,91,50);
-background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
+    <section class="py-5 border-bottom" style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
@@ -75,7 +75,7 @@ background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100
                 </div>
             </div>
         </section>
-        <!-- <footer class="py-5 bg-black">
+         <!-- <footer class="py-5 bg-black">
             <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; SERL 2023</p></div>
         </footer> -->
         <!-- Bootstrap core JS-->

@@ -37,7 +37,8 @@
                 </div>
             </div>
         </nav>
-    <section class="py-5 border-bottom">
+    <section class="py-5 border-bottom" style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">

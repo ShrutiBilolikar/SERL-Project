@@ -12,7 +12,8 @@
         <link href="styles1.css" rel="stylesheet" />
         <link rel="stylesheet" href="adminstyle.css">
 </head>
-<body>
+<body style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                   <div class="container px-5">
                       <a class="navbar-brand" href="#!">SERL</a>

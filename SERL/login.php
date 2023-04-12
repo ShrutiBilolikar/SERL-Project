@@ -72,7 +72,8 @@
 
 <!-- start here -->  
 
-<body id="body">
+<body id="body" style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
 
 <form action="connect1.php" method="POST" class="form">
   

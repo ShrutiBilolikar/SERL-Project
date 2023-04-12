@@ -20,7 +20,8 @@
     <title>Delete Researcher</title>
     <link rel="stylesheet" href="loginstyle.css">
 </head>
-<body>
+<body style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
 <form action="deleteResearcher.php" method="POST" class="form">
         <h3>Delete Researcher</h3>
         <label for="id">Enter Researcher id:</label><br>

@@ -38,8 +38,9 @@
                 </div>
             </div>
         </nav>
-    <section class="py-5 border-bottom" style="background: rgb(241,91,50);
-background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100%);">
+        
+    <section class="py-5 border-bottom" style="background: rgb(207,231,247);
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
@@ -85,6 +86,7 @@ background: radial-gradient(circle, rgba(241,91,50,1) 0%, rgba(234,238,42,1) 100
                 </div>
             </div>
         </section>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
