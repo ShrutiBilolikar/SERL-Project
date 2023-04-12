@@ -39,7 +39,7 @@ echo $temp;
                 session_start();
                 $karo=print_r($row2[0],true);
                 $_SESSION['uid']= $karo;
-                header("Location: afterLogin.php");
+                header("Location: afterLogin.php?ID=$ID");
             
         }
         $sql="SELECT count(*) FROM researcher WHERE researcherID='$ID' AND password='$password'";
@@ -56,7 +56,7 @@ echo $temp;
                 session_start();
                 $karo=print_r($row2[0],true);
                 $_SESSION['uid']= $karo;
-                header("Location: afterLogin.php");
+                header("Location: afterLogin.php?ID=$ID");
             
         }
         else{
