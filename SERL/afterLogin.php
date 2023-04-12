@@ -14,10 +14,6 @@ if($row[0]==1){
     $sql3="SELECT count(*) FROM publicationcontributor WHERE contributorID='$ID'";
     $query3=mysqli_query($conn,$sql3);
     $row3=mysqli_fetch_array($query3);
-    if($row3[0]==1){
-        $sql4="SELECT * FROM publication,publicationcontributor WHERE publication.publicationID=publicationcontributor.publicationID AND contributorID='$ID'";
-        $query4=mysqli_query($conn,$sql4);
-    }
 
 }
 ?>
@@ -45,19 +41,17 @@ if($row[0]==1){
         </nav>
         <section class="bg-light py-3 border-bottom" style="background: rgb(207,231,247);
 background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%);">
-    <div class="container px-5 my-5">
+    <div class="container px-0 my-0">
         <div class="row gx-5 justify-content-center">
-            <div class="col-lg-6 col-xl-6">
-                <div class="card mb-5 mb-xl-3">
-                    <div class="card-body p-5">
-                        <div class="mb-3">
-                            <span class="display-6 fw-bold"><?php echo $row2['name'];?></span>
-
-                            <div><?php echo "<img src='".$row2['img_source']."' width= '50%'>" ;?></div>
-
-                            <p class="text-muted"><?php echo "IIIT Allahabad";?></p>
+            <div class="col-lg col-xl">
+                <div class="card mb-0 mb-xl-3">
+                    <div class="card-body p-5" style="display:flex;">
+                        <div class="mb-3">                            
+                            <div style="margin:50px;"><?php echo "<img src='".$row2['img_source']."'  height='150px'>" ;?></div>                            
                         </div>
                         <ul class="list-unstyled mb-4">
+                            <h2 class="display-6 fw-bold"><?php echo $row2['name'];?></h2>
+                            <p class="text-muted"><?php echo "IIIT Allahabad";?></p>
                             <li class="mb-2">
                             <?php echo "Link: "?>
                             <a href="<?php echo $row2['website'];?>"> <?php echo $row2['website'];?></a>
@@ -81,27 +75,22 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
         <section class="py-5 border-bottom" style="background: rgb(207,231,247);
-background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
-            <div class="container px-5 my-5 px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
+background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:max-height;">
+    <div class="container px-5 my-1 px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+<?php
+if($row3[0]>=1){
+    $sql4="SELECT * FROM publication NATURAL JOIN publicationcontributor WHERE contributorID='$ID'";
+    $query4=mysqli_query($conn,$sql4);
+
+?>
+
+ 
+                        <h1 style="font-size:60px; font-weight:bold;" class="proj">Publications</h1>
+                        <br><br>
                         <!-- Testimonial 1-->
-                        <h1 class="proj">Publications</h1>
-                        <br>
-                        <br>
         <table style="width:100%">        
             <?php
                 while($row4=mysqli_fetch_array($query4)){
@@ -109,12 +98,10 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                 <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
-                                    <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
+                                    <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"style="font-size:30px; height:3rem; color:#0d6efd"></i></h1></div>
                                     <div class="ms-4">
-                                        <h3><?php echo $row4['publicationName'];?></h3>
-                                       <?php echo "Link to the publication: ";?>
-                                       <h5><a href="<?php echo $row4['link'];?>"> <?php echo $row4['link'];?></a></h5>
-                                       <br>
+                                        <p ><?php echo $row4['publicationName'];?></p>
+                                        
                                     </div>
                                     </div>
                                 </div>
@@ -123,21 +110,39 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         
                 <?php
                 }
+            }
             ?>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-book-fill" style="font-size:30px; height:3rem; color:#0d6efd"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1"><a style="color:#1c5cb9; font-size:30px; font-weight:bold; text-decoration:none;" href="publication.php">Add Publication</a><br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-bell-fill" style="font-size:30px; height:3rem; color:#0d6efd;"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1"><a style="color:#1c5cb9; font-size:30px; font-weight:bold; text-decoration:none;"  href="project.php">Add Project</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
                      </div>
                 </div>
             </div>
         </section>
-<div class="tab1cards">
 
-                <div class="card">
-                    <b><a href="project.php">Add Project</a> </b>
-                </div>
-                <div class="card">
-                    <b><a href="publication.php">Add Publication</a></b>
-                </div>
-            </div>
-            
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
