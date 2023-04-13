@@ -20,8 +20,14 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
             <label for="email">Email:</label><br>
             <input type="email" name="email" id="email" required placeholder="Email"><br><br>
     
-            <label for="">Choose:</label><br>
-            <input  type="text" name="type" id="type" required placeholder="Faculty/Researcher/Student"><br><br>
+            <label for="">Choose your role:</label><br>
+            <select id="type" name="type">
+                <option value="Faculty">Faculty</option>
+                <option value="Researcher">Researcher</option>
+                <option value="Student">Student</option>
+            </select>
+           <!-- <input  type="text" name="type" id="type" required placeholder="Faculty/Researcher/Student">-->
+           <br><br>
 
             <label for="">Feedback:</label><br>
             <input  type="text" name="feedback" id="feedback" required placeholder="Feedback"><br><br>

@@ -57,13 +57,15 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
       </div>
       <div class="text">
       SERL - Software Engineering Research Lab , CC-3
-<br>
-Indian Institute of Information Technology Allahabad
-<br>
-Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
-<br>
-Phone: 91-532-2922000, Fax: 91-532-2922125,<br>Email: contact@iiita.ac.in
-      </div>
+      <br>
+      Indian Institute of Information Technology Allahabad
+      <br>
+      Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
+      <br>
+      Phone: 91-532-2922000, Fax: 91-532-2922125,<br>Email: contact@iiita.ac.in
+      <br><br><br>
+        <p> Give us your valuable <a href="feedback.php">FEEDBACK</a>!</p>
+        </div>
     </div>
 <body>
         
