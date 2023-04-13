@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>SERL Lab</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.php" style="border:solid white 0.125rem;border-radius:1rem;" >LOGIN</a>/li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0"style="background-color:rgb(255,255,255,0.4);color:black;font-size:4em">Software Engineering Research Laboratory</h1>
+                    <h1 class="masthead-heading mb-0"style="background-color:rgb(255,255,255,0.4);color:black;font-size:4em;">Software Engineering Research Laboratory</h1>
                     <h2 class="masthead-subheading mb-0" style="background-color:rgb(255,255,255,0.4);color:rgb(0,0,0);font-size:2em">Indian Institute of Information Technology,Allahabad</h2>
                     <!-- <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a> -->
                 </div>
