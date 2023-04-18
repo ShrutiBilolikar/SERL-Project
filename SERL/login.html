@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="login-title">Log in</h2>
+    
+        <form class="login-form" action="connect1.php" method="POST">
+          <div>
+            <label for="ID">ID</label>
+            <input
+                   id="ID"
+                   type="text"
+                   placeholder="Enter your ID"
+                   name="ID"
+                   required
+                   />
+          </div>
+    
+          <!-- <div>
+            <label for="email">Email </label>
+            <input
+                   id="email"
+                   type="email"
+                   placeholder="enter your email"
+                   name="email"
+                   required
+                   />
+          </div> -->
+    
+          <div>
+            <label for="password">Password </label>
+            <input
+                   id="password"
+                   type="password"
+                   placeholder="Enter your Password"
+                   name="password"
+                   required
+                   />
+          </div>
+    
+          <button class="btn btn--form" type="submit" name="submit1" value="Log in">
+            Log in
+          </button>
+        </form>
+    </div>
+</body>
+</html>

@@ -3753,10 +3753,13 @@ textarea.form-control-lg {
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: relative;
   display: flex;
+  top:0;
+  left:0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  /* padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x); */
+  padding:0 8em;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10898,6 +10901,7 @@ html {
   padding-bottom:18rem;
   /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
   background-image: url(iiita1.jpg);
+  clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -11049,7 +11053,7 @@ section.scroll .container .row .col-lg-6 .p1-5 p:after{
   content:'';
   transform:rotate(45deg);
   margin-top:-30px;
-  background-color:white;
+  background:white;
 }
 
 section.scroll .container .row .col-lg-6 .p-5 img{
@@ -11191,3 +11195,69 @@ section.scroll .container .row .col-lg-6 .p-5 h2{
   color: white;
 }
 
+/*scroll indicator*/
+
+.navbar-container {
+  position: relative;
+}
+
+#progress-container{
+  /* width:100%;
+  height:0.5rem; */
+  /* background:white;
+  top:0; */
+  position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+}
+
+#progress-bar{
+  width:0%;
+  height:0.5rem;
+  background:coral;
+}
+
+/*styling admin cards*/
+
+.tab1cards{
+  display: flex;
+  justify-content: center;
+}
+.tab1cards .card{
+  padding:0.7em;
+  width:15em;
+  height:20em;
+  justify-content: center;
+  align-items:center;
+  margin:1em;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+  transition:0.7s;
+  margin-left: 20px;
+}
+
+.tab1cards .card:hover{
+  transform:scale(1.1);
+  z-index:2;
+}
+
+.tab1cards .card img{
+  box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+  transition:0.7s;
+  height:9em;
+  width:10em;
+}
+
+.tab1cards .card img:hover{
+  transform:scale(1.1);
+  z-index:2;
+}
+
+.tab1cards .card h4{
+  margin:1em;
+  width:10em;
+  padding:0.6em;
+  text-align:center;
+}
