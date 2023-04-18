@@ -22,6 +22,12 @@
                 padding:2rem;
                 width:50rem;
                 justify-content:center;
+                box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+                transition:0.7s;
+            }
+            .resources_card .books:hover{
+                transform:scale(1.1);
+                z-index:2;
             }
             .resources_card .books li{
                 list-style-type:none;
@@ -44,7 +50,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
                 </div>
             </div>
