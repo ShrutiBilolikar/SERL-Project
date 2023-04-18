@@ -15,6 +15,107 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="styles1.css" rel="stylesheet" />
+    <style>
+        
+        /*styling cards*/
+      .col-lg-6 .card-body .mb-3 .photo img{
+        box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+        transition:0.7s;
+        }
+
+        .col-lg-6 .card-body .mb-3 .photo img:hover{
+        transform:scale(1.1);
+        z-index:2;
+        }
+
+        /*bold try */
+        .col-lg-6{
+        position:relative;
+        width:800px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding:30px;
+        }
+
+        .col-lg-6 .card-body{
+        position:relative;
+        max-width:400px;
+        height:350px;
+        background: #fff;
+        margin: 30px 10px;
+        padding:20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        transition: 0.2s ease-in-out;
+        }
+
+        .col-lg-6 .card-body:hover{
+        height:550px;
+        }
+
+        .col-lg-6 .card-body .mb-3{
+        position:relative;
+        width:350px;
+        height:350px;
+        top:-100px;
+        right:20px;
+        z-index:1;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        justify-content:center;
+        align-items:center;
+        /* padding:1em; */
+        }
+
+        .col-lg-6 .card-body .mb-3 .text-muted{
+            padding:1em;
+            font-size:1.5em;
+            font-family:helvetica;
+            justify-content:center;
+            color:black;
+            align-items:center;
+        }
+
+        .col-lg-6 .card-body .mb-3 .photo{
+            justify-content:center;
+            align-items:center;
+            height:150px;
+            margin:1em;
+        }
+
+        .col-lg-6 .card-body .mb-3 .photo img{
+            max-width:100%;
+            border-radius:4px;
+            align-items:center;
+            margin-left:2rem;
+            width:250px;
+            height:180px;
+            top:50%;
+            left:50%;
+        }
+
+        .col-lg-6 .card-body .list-unstyled{
+            position:relative;
+            margin-top:-120px;
+            padding:10px 15px;
+            text-align:center;
+            color:#111;
+            visibility:hidden;
+            opacity:0;
+            transition: 0.3s ease-in-out;
+
+        }
+
+        .col-lg-6 .card-body:hover .list-unstyled{
+            visibility:visible;
+            opacity:1;
+            margin-top:-80px;
+            transition-delay:0.3s;
+        }
+
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
@@ -30,7 +131,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,34 +148,35 @@
                 {
             ?>
             <div class="col-lg-6 col-xl-6">
-                <div class="card mb-5 mb-xl-3">
+                <!-- <div class="card mb-5 mb-xl-3" style="background:lightblue;"> -->
                     <div class="card-body p-5">
-                        <div class="mb-3">
-                            <span class="display-6 fw-bold"><?php echo $row['name'];?></span>
+                        <div class="mb-3" style="background:#f7bfbf;">
+                            <!-- <span class="display-6 fw-bold" style="background:yellow;"><?php echo $row['name'];?></span> -->
 
-                            <div><?php echo "<img src='".$row['img_source']."' width= '50%'>" ;?></div>
+                            <div class="photo"><?php echo "<img src='".$row['img_source']."' width= '50%'>" ;?></div>
 
-                            <p class="text-muted"><?php echo "IIIT Allahabad";?></p>
+                            <p class="text-muted"><?php echo $row['name'];?><br><?php echo "IIIT Allahabad";?></p>
                         </div>
-                        <ul class="list-unstyled mb-4">
+                        <ul class="list-unstyled mb-4" style="background:#b8f2ef">
                             <li class="mb-2">
-                                <?php echo "Link: "?>
+                            <b><?php echo "Link: "?></b>
                                 <a href="<?php echo $row['website'];?>"> <?php echo $row['website'];?></a>
                             </li>
                             <li class="mb-2">
-                                <?php echo "Email: "?>
+                            <b><?php echo "Email: "?></b>
                                 <?php echo $row['email'];?>
                             </li>
                             <li class="mb-2">
-                                <?php echo "Mobile: "?>
+                            <b><?php echo "Mobile: "?></b>
                                 <?php echo $row['mobile'];?>
                             </li>
                             <li class="mb-2">
+                            <b><?php echo "Address: "?></b>
                                 <?php echo $row['address'];?>
                             </li>
                         </ul> 
                     </div>
-                </div>
+                <!-- </div> -->
             </div>
             <?php
                 }

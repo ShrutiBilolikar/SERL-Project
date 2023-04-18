@@ -9,7 +9,7 @@
 </head>
 <body style="background: rgb(207,231,247);
 background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
-    <h1>Add new Project</h1>
+    <h1>Add Project</h1>
 <br><br>
 
     <form action="connect4.php" method="POST" class="form">

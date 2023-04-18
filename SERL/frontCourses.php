@@ -17,7 +17,7 @@
             <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
             <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="styles.css" rel="stylesheet" />
+        <link href="styles1.css" rel="stylesheet" />
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,6 +33,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">Resources</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
                 </div>
             </div>

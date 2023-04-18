@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Publication</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
             <!-- Bootstrap icons-->
@@ -19,9 +19,19 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles1.css" rel="stylesheet" />
+        <style>
+            .card{
+                box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+                transition:0.7s;
+            }
+            .card:hover{
+                transform:scale(1.1);
+                z-index:2;
+            }
+        </style>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+<body style="display:flex;flex-direction:column;height:100vh;">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
                 <a class="navbar-brand" href="#page-top"><img src="serl.jpg" alt="logo" height="70rem" width="70rem"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -34,14 +44,14 @@
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         
     <section class="py-5 border-bottom" style="background: rgb(207,231,247);
-background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh">
+            background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:max-height;">
             <div class="container px-5 my-5 px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6" style="padding-top:2rem; margin-top:6rem;">
@@ -85,9 +95,9 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <!-- <footer class="footer" style="margin-top:5rem;" >
+        </section><br><br><br><br><br><br><br>
+<!--         
+        <footer class="footer" style="margin:0;padding:0;margin-top:auto;" >
         <div class="waves">
             <div class="wave" id="wave1"></div>
             <div class="wave" id="wave2"></div>
@@ -113,5 +123,5 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     
-</body>
+    </body>
 </html>
