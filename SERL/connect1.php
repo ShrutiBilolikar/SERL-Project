@@ -56,7 +56,7 @@ echo $temp;
                 session_start();
                 $karo=print_r($row2[0],true);
                 $_SESSION['uid']= $karo;
-                header("Location: afterLogin.php?ID=$ID");
+                header("Location: afterLogin1.php?ID=$ID");
             
         }
         else{

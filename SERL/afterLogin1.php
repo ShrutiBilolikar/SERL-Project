@@ -1,8 +1,8 @@
 <?php
 $conn=mysqli_connect('localhost','root','','serl') or die("Connection failed" .mysqli_connect_error());
 $ID = $_GET['ID'];
-$sql="SELECT count(*) FROM faculty WHERE facultyID='$ID'";
-$sql2="SELECT * FROM faculty WHERE facultyID='$ID'";
+$sql="SELECT count(*) FROM researcher WHERE researcherID='$ID'";
+$sql2="SELECT * FROM researcher WHERE researcherID='$ID'";
 $query=mysqli_query($conn,$sql);
 $row=mysqli_fetch_array($query);
 $query2=mysqli_query($conn,$sql2);
@@ -190,10 +190,6 @@ if($row[0]==1){
                             <!-- <h2 class="display-6 fw-bold"><?php echo $row2['name'];?></h2> -->
                             <!-- <p class="text-muted"><?php echo "IIIT Allahabad";?></p> -->
                             <li class="mb-2">
-                            <?php echo "Link: "?>
-                            <a href="<?php echo $row2['website'];?>"> <?php echo $row2['website'];?></a>
-                            </li>
-                            <li class="mb-2">
                             <?php echo "Email: "?>
                             <?php echo $row2['email'];?>
                             </li>
@@ -202,7 +198,7 @@ if($row[0]==1){
                             <?php echo $row2['mobile'];?>
                             </li>
                             <li class="mb-2">
-                            <?php echo $row2['address'];?>
+                            <?php echo $row2['description'];?>
                             </li>
                         </ul>
                         
