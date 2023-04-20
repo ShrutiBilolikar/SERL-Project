@@ -8,7 +8,7 @@
         $temp=$_POST['id'];
         $query= "DELETE FROM researcher WHERE researcherID='$temp'";
         $q1=mysqli_query($conn,$query);
-        header("Location: admin.php");
+        header("Location: frontResearcher.php");
     }
 ?>
 <!DOCTYPE html>
