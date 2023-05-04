@@ -32,6 +32,7 @@
                         <li class="nav-item"><a class="nav-link" href="frontProject.php">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Courses.php">COURSES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact us</a></li>
                         <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
