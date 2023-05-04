@@ -8,7 +8,7 @@
         $temp=$_POST['id'];
         $query= "DELETE FROM faculty WHERE facultyID='$temp'";
         $q1=mysqli_query($conn,$query);
-        header("Location: frontFaculty.php");
+        header("Location: admin.php");
     }
 ?>
 <!DOCTYPE html>

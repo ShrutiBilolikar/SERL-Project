@@ -8,7 +8,7 @@
         $temp=$_POST['id'];
         $query= "DELETE FROM project WHERE projectID='$temp'";
         $q1=mysqli_query($conn,$query);
-        header("Location: frontProject.php");
+        header("Location: admin.php");
     }
 ?>
 <!DOCTYPE html>

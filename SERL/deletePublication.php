@@ -8,7 +8,7 @@
         $temp=$_POST['id'];
         $query= "DELETE FROM publication WHERE publicationID='$temp'";
         $q1=mysqli_query($conn,$query);
-        header("Location: frontPublication.php");
+        header("Location: admin.php");
     }
 ?>
 <!DOCTYPE html>
