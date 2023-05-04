@@ -113,7 +113,18 @@
             margin-top:-80px;
             transition-delay:0.3s;
         }
-
+        .btnf{
+            background-color: white; 
+            border: 2px solid black; 
+            color: green; 
+            padding: 5px 10px; 
+            text-align: center; 
+            display: inline-block; 
+            font-size: 20px; 
+            margin: 10px 30px; 
+            cursor: pointer; 
+            text-decoration:none; 
+        }
 
     </style>
 </head>
@@ -167,7 +178,19 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                             <li class="mb-2">
                             <b><?php echo "Mobile: "?></b>
                             <?php echo $row['mobile'];?>
+                            <li>
+                            <li>
+                                <?php
+                                $var=$row['researcherID'];
+                                echo "<form action='researcher_page.php' method='POST'>
+                                    <button class='btnf' name='ID' value='$var'>browse projects and publications</button>
+                                </form>"
+                                ?>
+                            
+                            </li>
+                            </li>
                         </ul>
+                        
                     </div>
                 <!-- </div> -->
             </div>
