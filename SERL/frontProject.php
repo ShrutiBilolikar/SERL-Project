@@ -70,9 +70,9 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
                                     <div class="ms-4">
                                        <h4><?php echo $row['projectName'];?></h4>
-                                       <?php echo "Contribution by: ";?> 
-                                       <p><?php echo $row['contributor'];?></p>
-                                       <?php echo "Link to the project: ";?>
+                                       <b><?php echo "Contribution by: ";?> </b>
+                                       <span><?php echo $row['contributor'];?></span><br>
+                                       <b><?php echo "Link to the project: ";?></b>
                                        <p><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></p>
                                        <br>
                                     </div>

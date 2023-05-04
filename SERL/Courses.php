@@ -70,9 +70,11 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
                                     <div class="ms-4">
                                        <h4><?php echo $row['Cname'];?></h4>
-                                       <?php echo "No of Students Enrolled: ";?> 
-                                       <p><?php echo $row['Students'];?></p>
-                                     <p><a href="individualCourses.php?CID=<?php echo $row['CID']; ?>">Researchers Involved</a></p>
+                                       <b><?php echo "No of Students Enrolled: ";?></b>
+                                       <span><?php echo $row['Students'];?></span><br>
+                                       <b><?php echo "Projects:- ";?></b>
+                                       <p><?php echo $row['Project'];?></p>
+                                     <p><a href="individualCourses.php?CID=<?php echo $row['CID']; ?>">Researchers</a></p>
                                        <br>
                                     </div>
                                     </div>
