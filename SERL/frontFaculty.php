@@ -1,5 +1,5 @@
 <?php 
-    //session_start();
+    session_start();
     //$temp=$_SESSION['uid'];
     $conn=mysqli_connect('localhost','root','','serl') or die("Connection failed" .mysqli_connect_error());
     $query="SELECT * FROM faculty";
@@ -114,6 +114,18 @@
             margin-top:-80px;
             transition-delay:0.3s;
         }
+        .btnf{
+            background-color: white; 
+            border: 2px solid black; 
+            color: green; 
+            padding: 5px 10px; 
+            text-align: center; 
+            display: inline-block; 
+            font-size: 20px; 
+            margin: 10px 30px; 
+            cursor: pointer; 
+            text-decoration:none; 
+        }
 
     </style>
 </head>
@@ -146,6 +158,7 @@
         <?php
                 while($row=mysqli_fetch_assoc($result))
                 {
+                    $_SESSION['facid'] =$row['facultyID'];
             ?>
             <div class="col-lg-6 col-xl-6">
                 <!-- <div class="card mb-5 mb-xl-3" style="background:lightblue;"> -->
@@ -174,7 +187,17 @@
                             <b><?php echo "Address: "?></b>
                                 <?php echo $row['address'];?>
                             </li>
+                            <li>
+                                <?php
+                                $var=$row['facultyID'];
+                                echo "<form action='faculty_page.php' method='POST'>
+                                    <button class='btnf' name='ID' value='$var'>browse projects and publications</button>
+                                </form>"
+                                ?>
+                            
+                            </li>
                         </ul> 
+ 
                     </div>
                 <!-- </div> -->
             </div>
