@@ -72,6 +72,10 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                                        <h4><?php echo $row['projectName'];?></h4>
                                        <b><?php echo "Contribution by: ";?> </b>
                                        <span><?php echo $row['contributor'];?></span><br>
+                                       <b>Type of project:</b>
+                                       <?php echo $row['type'];?><br>
+                                       <div><b>Description :</b></div>
+                                       <?php echo $row['description'];?><br><br>
                                        <b><?php echo "Link to the project: ";?></b>
                                        <p><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></p>
                                        <br>
