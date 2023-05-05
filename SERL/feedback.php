@@ -11,8 +11,8 @@
 background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 100%); height:100vh;">
         <h1>Feedback Form</h1>
         <form action="connectFeedback.php" method="POST" class="form" enctype="multipart/form-data">
-            <label for="id">ID:</label><br>
-            <input  type="text" name="id" id="id" required placeholder="ID"><br><br>
+            <!-- <label for="id">ID:</label><br>
+            <input  type="text" name="id" id="id" required placeholder="5" value="5"><br><br> -->
     
             <label for="">Name:</label><br>
             <input  type="text" name="name" id="name" required placeholder="Name"><br><br>

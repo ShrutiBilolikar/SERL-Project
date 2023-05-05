@@ -8,7 +8,10 @@
             $link=$_POST['link'];
             $name=$_POST['name'];
             $cname=$_POST['cname'];
-            $sql="INSERT INTO project VALUES ('$id','$link','$name','$cname')";
+            $type=$_POST['type'];
+            $description=$_POST['description'];
+
+            $sql="INSERT INTO project VALUES ('$id','$link','$name','$cname','$type','$description')";
             $query =mysqli_query($conn,$sql);
             if($query){
                 

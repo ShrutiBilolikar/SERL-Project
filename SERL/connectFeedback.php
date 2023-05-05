@@ -9,9 +9,8 @@
     require ("PHPMailer/SMTP.php");
     require ("PHPMailer/Exception.php");
 
-    if(isset($_POST['id']) && isset($_POST['name']) && isset($_POST['email'])&& isset($_POST['type']) && isset($_POST['feedback']))
+    if(isset($_POST['name']) && isset($_POST['email'])&& isset($_POST['type']) && isset($_POST['feedback']))
     {
-        $id=$_POST['id'];   
         $name=$_POST['name'];
         $email=$_POST['email'];
         $type=$_POST['type'];
@@ -19,7 +18,6 @@
 
         function sendMail(){
 
-            $id=$_POST['id'];   
             $name=$_POST['name'];
             $email=$_POST['email'];
             $type=$_POST['type'];
@@ -57,7 +55,7 @@
             }
         }
 
-            $sql="INSERT INTO feedback VALUES ('$id','$name','$email', '$type', '$feedback')";
+            $sql="INSERT INTO feedback(name,type,email,feedback) VALUES ('$name', '$type', '$email','$feedback')";
             if(sendMail() && $conn->query($sql) == true ){
                 echo '<script>alert("Feedback submitted!");setTimeout(()=>{window.location.replace("index.php");},500);</script>';
             }

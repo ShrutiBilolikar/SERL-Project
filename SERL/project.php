@@ -15,16 +15,22 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
     <form action="connect4.php" method="POST" class="form">
         <label for="ID">ProjectID:</label><br>
         <input type="text" name="ID" id="ID" required><br><br>
-
-        <label for="dob">Project Link:</label><br>
-        <input type="text" name="link" id="link" required><br><br>
-
+        
         <label for="name">Project Name:</label><br>
         <input type="text" name="name" id="name" required><br><br>
-
+        
         <label for="cname">Contibutor Name:</label><br>
         <input type="text" name="cname" id="cname" required><br><br>
         
+        <label for="type">Type of Project:</label><br>
+        <input type="text" name="type" id="type" required><br><br>
+        
+        <label for="description">Description:</label><br>
+        <input type="text" name="description" id="description" required><br><br>
+        
+        <label for="dob">Project Link:</label><br>
+        <input type="text" name="link" id="link" required><br><br>
+
         <input type="submit" name="submit6" id="submit6" class="btn">
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

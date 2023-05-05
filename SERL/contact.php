@@ -45,6 +45,7 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                         <li class="nav-item"><a class="nav-link" href="frontProject.php">PROJECTS</a></li>
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Courses.php">COURSES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
                         <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
                     </ul>
@@ -56,15 +57,15 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         <img src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg">
       </div>
       <div class="text">
-      SERL - Software Engineering Research Lab , CC-3
+      <b>SERL - Software Engineering Research Lab , CC-3</b>
       <br>
-      Indian Institute of Information Technology Allahabad
+      <b>Indian Institute of Information Technology Allahabad</b>
       <br>
-      Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
+      <b>Devghat, Jhalwa, Allahabad-211015, U. P. INDIA</b>
       <br>
-      Phone: 91-532-2922000, Fax: 91-532-2922125,<br>Email: contact@iiita.ac.in
+      <b>Phone: 91-532-2922000, Fax: 91-532-2922125,<br>Email: contact@iiita.ac.in</b>
       <br><br><br>
-        <p> Give us your valuable <a href="feedback.php">FEEDBACK</a>!</p>
+        <b><p> Give us your valuable <a href="feedback.php">FEEDBACK</a>!</p><b>
         </div>
     </div>
 <body>

@@ -1,9 +1,11 @@
 <?php 
-    //session_start();
-    //$temp=$_SESSION['uid'];
     $conn=mysqli_connect('localhost','root','','serl') or die("Connection failed" .mysqli_connect_error());
-    $query="SELECT * FROM project";
-    $result=mysqli_query($conn,$query);
+    $CID = $_GET['CID'];
+    $sql="SELECT count(*) FROM projectcourses WHERE CID='$CID'";
+    $sql2="SELECT PID FROM projectcourses WHERE CID='$CID'";
+    $query=mysqli_query($conn,$sql);
+    $row=mysqli_fetch_array($query);
+    $query2=mysqli_query($conn,$sql2);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,24 +62,35 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                         <h2 class="display-2 fw-bolder" style="text-align:center;">Projects</h2>
                         <br>
                         <br>
-        <table style="width:100%">        
-            <?php
-                while($row=mysqli_fetch_assoc($result)){
-                ?>
-                <div class="card mb-4">
+        <table style="width:100%">    
+        <?php
+            if($row[0]>=1){
+                while($row2=mysqli_fetch_assoc($query2)){     
+                    //echo $row2['researcherID'];
+                    $PID=$row2['PID'];
+        $qq = "SELECT count(*) FROM project WHERE projectID='$PID'";
+        $q1 = "SELECT * FROM project WHERE projectID='$PID'";
+        $q2=mysqli_query($conn,$qq);
+        $row3=mysqli_fetch_array($q2);
+        
+        $q3=mysqli_query($conn,$q1);
+        $row4=mysqli_fetch_array($q3);  
+        if($row3[0]>=1){     
+            ?>
+                            <div class="card mb-4">
                             <div class="card-body p-4">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><h1><i class="bi bi-bookmarks-fill"></i></h1></div>
                                     <div class="ms-4">
-                                       <h4><?php echo $row['projectName'];?></h4>
+                                       <h4><?php echo $row4['projectName'];?></h4>
                                        <b><?php echo "Contribution by: ";?> </b>
-                                       <span><?php echo $row['contributor'];?></span><br>
+                                       <span><?php echo $row4['contributor'];?></span><br>
                                        <b>Type of project:</b>
-                                       <?php echo $row['type'];?><br>
+                                       <?php echo $row4['type'];?><br>
                                        <div><b>Description :</b></div>
-                                       <?php echo $row['description'];?><br><br>
+                                       <?php echo $row4['description'];?><br><br>
                                        <b><?php echo "Link to the project: ";?></b>
-                                       <p><a href="<?php echo $row['link'];?>"> <?php echo $row['link'];?></a></p>
+                                       <p><a href="<?php echo $row4['link'];?>"> <?php echo $row4['link'];?></a></p>
                                        <br>
                                     </div>
                                     </div>
@@ -86,7 +99,7 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                 </div>
         
                 <?php
-                }
+                }}}
             ?>
                      </div>
                 </div>
