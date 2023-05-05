@@ -28,7 +28,7 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                         <li class="nav-item"><a class="nav-link" href="frontPublication.php">PUBLICATION</a></li>
                         <li class="nav-item"><a class="nav-link" href="resources.php">RESOURCES</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">LOGOUT</a></li>
                     </ul>
                 </div>
             </div>
