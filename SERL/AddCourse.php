@@ -2,13 +2,15 @@
     //echo 'aaya hu';
     if($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['submit6'])){
         $conn=mysqli_connect('localhost','root','','serl') or die("Connection failed" .mysqli_connect_error());
-        if(isset($_POST['CID'])&& isset($_POST['Cname']) && isset($_POST['Students'])&& isset($_POST['Project'])){
+        if(isset($_POST['CID'])&& isset($_POST['Cname']) && isset($_POST['it'])&& isset($_POST['mba']) && isset($_POST['faculty']) && isset($_POST['ta'])){
 
             $cid=$_POST['CID'];
             $cname=$_POST['Cname'];
-            $students=$_POST['Students'];
-            $project=$_POST['Project'];
-            $sql="INSERT INTO courses VALUES ('$cid','$cname','$students','$project')";
+            $it=$_POST['it'];
+            $mba=$_POST['mba'];
+            $faculty=$_POST['faculty'];
+            $ta=$_POST['ta'];
+            $sql="INSERT INTO courses VALUES ('$cid','$cname','$it','$mba','$faculty','$ta')";
             $query =mysqli_query($conn,$sql);
             if($query){
                 
@@ -45,11 +47,17 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         <label for="Cname">Course Name:</label><br>
         <input type="text" name="Cname" id="Cname" required><br><br>
          
-        <label for="Students">Enter Number of Students:</label><br>
-        <input type="number" name="Students" id="Students" required><br><br>
+        <label for="it">Enter Number of IT Department Students:</label><br>
+        <input type="number" name="it" id="it" required><br><br>
 
-        <label for="Project">Projects:</label><br>
-        <input type="text" name="Project" id="Project" required><br><br>
+        <label for="mba">Enter Number of MBA Students:</label><br>
+        <input type="number" name="mba" id="mba" required><br><br>
+
+        <label for="faculty">Faculty:</label><br>
+        <input type="text" name="faculty" id="faculty" required><br><br>
+
+        <label for="ta">TA Alloted:</label><br>
+        <input type="text" name="ta" id="ta" required><br><br>
         
         <input type="submit" name="submit6" id="submit6" class="btn">
     </form>
