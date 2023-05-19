@@ -53,7 +53,7 @@
         }
 
         .col-lg-6 .card-body:hover{
-        height:550px;
+        height: 650px;
         }
 
         .col-lg-6 .card-body .mb-3{
