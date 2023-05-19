@@ -71,6 +71,23 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
                 </div>
             </div>
 
+            <div class="tab1cards"style="margin-top:3em;">
+                <div class="card">
+                    <img src="assets/addpub.png" alt="safari">
+                    <h4><b><a href="AddCourse.php">Add Course</a></b></h4>
+                </div>
+                <div class="card">
+                    <img src="assets/deletepub.png" alt="safari">
+                    <h4><b><a href="deleteCourse.php">Delete Course</a></b></h4>
+                </div>
+                <div class="card">
+                    <img src="assets/addfaculty.png" alt="safari">
+                    <h4><b><a href="showFeedback.php">View Feedbacks</a></b></h4>
+                </div>
+            </div>
+
+            
+
         <footer class="footer">
             <div class="waves">
                 <div class="wave" id="wave1"></div>
