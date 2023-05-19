@@ -10,7 +10,7 @@ Faculty: Username - PROITXXX Password - PROITXXX
 Researcher: Username - RITXXX Password - RITXXX
 where XXX represents 001,002 and so on.
 
-Step by step instructions to execute the project
+# Step by step instructions to execute the project
 1) The user is directed to the homepage which contains about us, vision and mission and the upcoming events. 
 2) Through the navbar elements we can browse the pages that contain information about faculty, researcher, projects, publications, courses offered by SERL and resources.
 3) We have facility for user to login. Credentials for the same are specified above.
@@ -21,6 +21,6 @@ Step by step instructions to execute the project
 8) Similarly, we have researcher page which allows us to view the details of researchers associated with SERL and the links can be accessed to view their respective projects and publications.
 9) In the project page, we have the list of all the projects associated with SERL with their type, description and contributors.
 10) Similarly, for the publication page, all publications are listed in MLA format.
-11) On the courses page, details for every course like no of it students, no of MBA students enrolled, associated faculty and tas are mentioned along with the projects associated with the particular course.
+11) On the courses page, details for every course like no of IT students, no of MBA students enrolled, associated faculty and TAs are mentioned along with the projects associated with the particular course.
 12) In the resources page, a list of resources has been provided.
 13) There is also a contact us page wherein the address and contact details of the serl lab have been mentioned along with a feedback form where users can fill feedback which is sent to the admin for review.
