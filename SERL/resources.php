@@ -72,14 +72,7 @@
              </ul>
         </div>
     </div>
-    <footer class="footer" style="margin-top:5rem;" >
-        <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-        </div>
-
+    <footer class="footer" style="margin-top:0rem;" >
         <ul class="menu">
             <li class="menu__item"><a class="fa fa-facebook" href="https://www.facebook.com/iiitall/" target="_blank"></a></li>
             <li class="menu__item"><a class="fa fa-twitter" href="https://twitter.com/iiita_official?lang=en" target="_blank"></a></li>

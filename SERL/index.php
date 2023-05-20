@@ -48,9 +48,9 @@
         <!-- Header-->
         <header class="masthead text-center text-#50E3C2">
             <div class="masthead-content"> 
-                <div class="container px-5">
-                    <h1 class="masthead-heading mb-0"style="background-color:rgb(255,255,255,0.4);color:black;font-size:4em;">Software Engineering Research Laboratory</h1>
-                    <h2 class="masthead-subheading mb-0" style="color:rgb(0,0,0);font-size:2em">Indian Institute of Information Technology,Allahabad</h2>
+                <div class="container px-5" style="color:black">
+                    <h1 style="font-size:4em;">Software Engineering Research Laboratory</h1>
+                    <h2 class="masthead-subheading mb-0" style="font-size:2em">Indian Institute of Information Technology,Allahabad</h2>
                     <!-- <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a> -->
                 </div>
             </div>
@@ -80,10 +80,10 @@
         </section>
 
         <!-- Content section 2-->
-        <div class="upper_svg" style="background:#50E3C2">
+        <div class="upper_svg" style="background:#c3f7f2;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L20,42.7C40,53,80,75,120,96C160,117,200,139,240,149.3C280,160,320,160,360,186.7C400,213,440,267,480,272C520,277,560,235,600,186.7C640,139,680,85,720,58.7C760,32,800,32,840,58.7C880,85,920,139,960,144C1000,149,1040,107,1080,106.7C1120,107,1160,149,1200,165.3C1240,181,1280,171,1320,144C1360,117,1400,75,1420,53.3L1440,32L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg> 
         </div>
-        <section class="scroll" style="background-color:#50E3C2; padding-bottom:10rem;">
+        <section class="scroll" style="background-color:#c3f7f2; padding-bottom:10rem;">
         <svg class="waves_index1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L30,128C60,128,120,128,180,144C240,160,300,192,360,208C420,224,480,224,540,224C600,224,660,224,720,240C780,256,840,288,900,293.3C960,299,1020,277,1080,245.3C1140,213,1200,171,1260,176C1320,181,1380,235,1410,261.3L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg> 
             <div class="container px-5">
                 <div class="row gx-5 align-items-center" data-aos-duration="0.001">
@@ -134,13 +134,6 @@
 
         <!-- Footer-->
         <footer class="footer">
-        <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-        </div>
-
         <ul class="menu">
             <li class="menu__item"><a class="fa fa-facebook" href="https://www.facebook.com/iiitall/" target="_blank"></a></li>
             <li class="menu__item"><a class="fa fa-twitter" href="https://twitter.com/iiita_official?lang=en" target="_blank"></a></li>
