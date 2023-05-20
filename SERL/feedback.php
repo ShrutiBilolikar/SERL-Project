@@ -14,7 +14,7 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
             <!-- <label for="id">ID:</label><br>
             <input  type="text" name="id" id="id" required placeholder="5" value="5"><br><br> -->
     
-            <label for="">Name:</label><br>
+            <label for="name">Name:</label><br>
             <input  type="text" name="name" id="name" required placeholder="Name"><br><br>
     
             <label for="email">Email:</label><br>
