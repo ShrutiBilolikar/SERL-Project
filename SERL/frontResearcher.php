@@ -201,21 +201,14 @@ background: radial-gradient(circle, rgba(207,231,247,1) 0%, rgba(207,231,247,1) 
         </div>
     </div>
 </section>
-<footer class="footer" style="margin-top:5rem;" >
-        <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-        </div>
-
-        <ul class="menu">
-            <li class="menu__item"><a class="fa fa-facebook" href="https://www.facebook.com/iiitall/" target="_blank"></a></li>
-            <li class="menu__item"><a class="fa fa-twitter" href="https://twitter.com/iiita_official?lang=en" target="_blank"></a></li>
-            <li class="menu__item"><a class="fa fa-google" href="https://www.iiita.ac.in/" target="_blank"></a></li>
-            <li class="menu__item"><a class="fa fa-linkedin" href="https://www.linkedin.com/school/indian-institute-of-information-technology-allahabad-india/?originalSubdomain=in" target="_blank"></a></li>
-        </ul>
-        <p style="opacity: 0.75;font-size:1.1rem;">Copyright &copy; SERL 2023</p>
+        <footer class="footer" style="margin-top:0rem;" >
+            <ul class="menu">
+                <li class="menu__item"><a class="fa fa-facebook" href="https://www.facebook.com/iiitall/" target="_blank"></a></li>
+                <li class="menu__item"><a class="fa fa-twitter" href="https://twitter.com/iiita_official?lang=en" target="_blank"></a></li>
+                <li class="menu__item"><a class="fa fa-google" href="https://www.iiita.ac.in/" target="_blank"></a></li>
+                <li class="menu__item"><a class="fa fa-linkedin" href="https://www.linkedin.com/school/indian-institute-of-information-technology-allahabad-india/?originalSubdomain=in" target="_blank"></a></li>
+            </ul>
+            <p style="opacity: 0.75;font-size:1.1rem;">Copyright &copy; SERL 2023</p>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
