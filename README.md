@@ -1,3 +1,7 @@
+
+
+https://github.com/ShrutiBilolikar/SERL-Project/assets/96984960/ed625d06-2a57-441d-9bf0-16094b95844f
+
 # SERL-Project
 SERL website is aimed to propagate information of software Engineering reserach laboratory. It provides information about faculties and researchers who are actively working on projects and publications related to software engineering. The website also provides resources related to SERL for those who are interested. One-click feature of the website will save a lot of time of users who have to visit the SERL for small reasons at times.
 
